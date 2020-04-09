@@ -1,0 +1,23 @@
+{
+  "name": "web-design-1920",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aaraar/web-design-1920.git",
+  "author": "Bas de Greeuw <bdegreeuw@ziggo.nl>",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^2.3.4"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "node server.js",
+    "watch": "rollup -cw",
+    "dev": "nodemon server.js --ignore main.js --ignore 'docs/*' --ignore docs/sw.js"
+  },
+  "devDependencies": {
+    "rollup-plugin-livereload": "^1.1.0",
+    "rollup-plugin-serve": "^1.0.1"
+  }
+}
