@@ -6,11 +6,13 @@
     init();
 
     function init () {
-        const audio = new Audio('/readSimpleGraph.wav');
+        const audio = new Audio('./readSimpleGraph.wav');
         const canvas = document.querySelector('canvas');
         draw(canvas);
         addGraphExplanation(canvas, audio);
-        window.addEventListener('resize', draw(canvas));
+        window.addEventListener('resize', () => {
+            draw(canvas);
+        });
     }
 
     function addGraphExplanation (canvas, audio) {
