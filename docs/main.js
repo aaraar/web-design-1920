@@ -32,7 +32,7 @@
         ctx.moveTo(0, ctx.canvas.height);
         ctx.lineTo(ctx.canvas.width, 0);
         ctx.lineWidth = 30;
-        ctx.strokeStyle = "white";
+        ctx.strokeStyle = "red";
         ctx.stroke();
         ctx.closePath();
         for (let i = 0; i < 10; i++) {
@@ -61,14 +61,5 @@
         audio.currentTime = 0;
         audio.play();
     }
-
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments);};
-        h._hjSettings={hjid:1768995,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
 }());
