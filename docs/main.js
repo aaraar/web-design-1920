@@ -43,14 +43,14 @@
                 ctx.moveTo ( 0, yIncrement );
                 ctx.lineTo ( 40, yIncrement );
                 ctx.lineWidth = 30;
-                ctx.strokeStyle = "white";
+                ctx.strokeStyle = "red";
                 ctx.stroke ();
                 ctx.closePath ();
                 ctx.beginPath ();
                 ctx.moveTo ( xIncrement, ctx.canvas.height );
                 ctx.lineTo ( xIncrement, ctx.canvas.height - 40 );
                 ctx.lineWidth = 30;
-                ctx.strokeStyle = "white";
+                ctx.strokeStyle = "red";
                 ctx.stroke ();
                 ctx.closePath ();
             }
