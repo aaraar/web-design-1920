@@ -12,9 +12,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "start": "node server.js",
-    "watch": "rollup -cw",
-    "dev": "nodemon server.js --ignore main.js --ignore 'docs/*' --ignore docs/sw.js"
+    "dev": "rollup -cw"
   },
   "devDependencies": {
     "rollup-plugin-livereload": "^1.1.0",
