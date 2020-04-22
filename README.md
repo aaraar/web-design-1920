@@ -1,16 +1,21 @@
 # Web Design @cmda-minor-web 1920
 ### Interactie ontwerpen: Rapid prototypen en testen met echte mensen
+Speciaal voor Roger Ravelli heb ik een ontwerp gemaakt om hem tegemoet te komen bij de problemen die hij ondervind bij het gebruik van zijn computer voor bepaalde doeleinden.
+Mijn focus hiervoor ligt op het begrijpbaar maken van grafieken voor Roger, aangezien roger een groot deel van zijn zicht niet meer kan gebruiken.
+Dit doe ik door middel van `Exclusive Design`, het tegenovergestelde van `Inclusive Design`.
 
-Web Design gaat over het ontwerpen en testen van Interactie. Het voordeel van een Frontend Developer (en Web Designer) is dat die techniek begrijpt, kan toepassen én verstand heeft van UX en design. Als je Web technieken begrijpt kun je je ideeën snel prototypen en testen met echte gebruikers, in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
-
-In het vak Web design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En zit er wel _nonsense_ in?
-
+#### [Meer info over het proces vindt je in de wiki](https://github.com/aaraar/web-design-1920/wiki)
 
 ## Profiel Roger Ravelli
 ![Profiel roger](./documentation/roger.png)
 
-assumptive rendering
-
+### Requirements
+Requirements a.d.h.v. het profiel
+1. Er moet interessante en echte data gevisualiseerd worden (bv. toeganklijkheidscijfers of groene energie cijfers)
+1. Als er tekst in staat moet deze goed leesbaar en begrijpbaar zijn door Roger op zijn screenreaders op de iPad, iPhone en door supernova op windows
+1. De basis informatie van de gehele website moet voor hem te begrijpen zijn zonder het gebruik van een screenreader
+1. De interface moet duidelijk zichtbaar zijn voor Roger zodat hij nog wel het gedeeltelijke zicht dat hij nog heeft kan gebruiken
+1. Hij moet de volledige controle over de applicatie en wat de applicatie eventueel zegt of laat zien hebben (Hij moet bijvoorbeeld altijd onderdelen kunnen starten en weer kunnen stoppen of sluiten)
 
 ## Leerdoelen
 - _Leren hoe je (design) principles in een ontwerp kan toepassen._
