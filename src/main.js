@@ -49,9 +49,12 @@ function createGraph(ctx, data) {
     return new Chart(ctx, {
         type: 'line',
         data: {
+            pointRadius: 10,
             labels: dutchData.map(data => data.Year),
             datasets: [
                 {
+                    radius: 5,
+                    pointRadius: 5,
                     label: 'Waterkracht',
                     data: dutchData.map(data => data["Hydropower (terawatt-hours)"]),
                     backgroundColor: 'rgba(255, 255, 0, 0.5)',
@@ -59,6 +62,8 @@ function createGraph(ctx, data) {
                     borderWidth: 0
                 },
                 {
+                    radius: 5,
+                    pointRadius: 5,
                     label: 'Overige Hernieuwbare Bronnen',
                     data: dutchData.map(data => data["Other renewables (terawatt-hours)"]),
                     backgroundColor: 'rgba(0, 255, 0, 0.5)',
@@ -66,6 +71,8 @@ function createGraph(ctx, data) {
                     borderWidth: 0
                 },
                 {
+                    radius: 5,
+                    pointRadius: 5,
                     label: 'Zonne energie',
                     data: dutchData.map(data => data["Solar (terawatt-hours)"]),
                     backgroundColor: 'rgba(0, 0, 255, 0.5)',
@@ -73,6 +80,8 @@ function createGraph(ctx, data) {
                     borderWidth: 0
                 },
                 {
+                    radius: 5,
+                    pointRadius: 5,
                     label: 'Traditionele biobrandstoffen',
                     data: dutchData.map(data => data["Traditional biofuels (terrawatt-hours)"]),
                     backgroundColor: 'rgba(0, 255, 255, 0.5)',
@@ -80,6 +89,8 @@ function createGraph(ctx, data) {
                     borderWidth: 0
                 },
                 {
+                    radius: 5,
+                    pointRadius: 5,
                     label: 'Wind',
                     data: dutchData.map(data => data["Wind (terawatt-hours)"]),
                     backgroundColor: 'rgba(255, 0, 0, 0.5)',
@@ -100,9 +111,6 @@ function createGraph(ctx, data) {
                 display: true,
                 text: 'Hernieuwbare Energie in Nederland van 1965 to 2018'
             },
-            hover: {
-                mode: 'nearest',
-            },
             scales: {
                 xAxes: [{
                     gridLines: {
@@ -121,7 +129,8 @@ function createGraph(ctx, data) {
                 }
             },
             tooltips: {
-                mode: 'label',
+                mode: 'index',
+                axis: 'y',
                 callbacks: {
                     label: function (tooltipItem, data) {
                         let label = data.datasets[tooltipItem.datasetIndex].label || '';

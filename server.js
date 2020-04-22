@@ -32,7 +32,7 @@ app.post('/tts', (req, res) => {
     textToSpeech.synthesize(synthesizeParams)
         .then(audio => {
             res.setHeader('Content-Type', 'audio/wav')
-            audio.pipe()
+            audio.pipe(req)
         })
         .catch(err => {
             console.log('error:', err);
