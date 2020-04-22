@@ -9,10 +9,21 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-<h1>Data van toegankelijkheid</h1>
-<p>Hieronder staat een grafiek met op de y-as de hoeveelheid websites die aria labels ondersteunen en op de x-as de tijd van 2000 tot 2020</p>
-<canvas height="100vh" width="100vw"></canvas>
-<p>De hoeveelheden stijgen nog steeds</p>
+<article>
+    <section>
+        <h1>Hernieuwbare energie verbruik in Nederland van 1965 tot 2018</h1>
+        <h2>Hernieuwbare energie gemeten in terrawatt-uur (Twh) per jaar.</h2>
+        <h3>Traditionele biobrandstoffen verwijst naar consumptie van brandhout, bosbouwproducten, dierlijk en
+            agricultureel afval</h3>
+    </section>
+    <section>
+        <canvas id="hernieuwbareEnergie" height="400" aria-label="Een grafiek met data over hernieuwbare energie"
+                role="img">
+            <p></p>
+        </canvas>
+    </section>
+</article>
+
 <script src="./main.js"></script>
 </body>
 </html>
