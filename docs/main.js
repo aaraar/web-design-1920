@@ -21223,28 +21223,28 @@
               labels: dutchData.map(data => data.Year),
               datasets: [
                   {
-                      label: 'Hydropower',
+                      label: 'Waterkracht',
                       data: dutchData.map(data => data["Hydropower (terawatt-hours)"]),
                       backgroundColor: 'rgba(255, 255, 0, 0.5)',
                       borderColor: 'rgba(255, 255, 0, 1)',
                       borderWidth: 0
                   },
                   {
-                      label: 'Other renewables',
+                      label: 'Overige Hernieuwbare Bronnen',
                       data: dutchData.map(data => data["Other renewables (terawatt-hours)"]),
                       backgroundColor: 'rgba(0, 255, 0, 0.5)',
                       borderColor: 'rgba(0, 255, 0, 1)',
                       borderWidth: 0
                   },
                   {
-                      label: 'Solar',
+                      label: 'Zonne energie',
                       data: dutchData.map(data => data["Solar (terawatt-hours)"]),
                       backgroundColor: 'rgba(0, 0, 255, 0.5)',
                       borderColor: 'rgba(0, 0, 255, 1)',
                       borderWidth: 0
                   },
                   {
-                      label: 'Traditional biofuels',
+                      label: 'Traditionele biobrandstoffen',
                       data: dutchData.map(data => data["Traditional biofuels (terrawatt-hours)"]),
                       backgroundColor: 'rgba(0, 255, 255, 0.5)',
                       borderColor: 'rgba(0, 255, 255, 1)',
