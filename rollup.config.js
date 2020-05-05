@@ -7,7 +7,7 @@ import livereload from 'rollup-plugin-livereload'
 export default {
     input: 'src/main.js',
     output: {
-        file: 'static/main.js',
+        file: 'docs/main.js',
         format: 'iife',
         name: 'bundle',
     },
