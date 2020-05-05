@@ -24,7 +24,9 @@ Requirements a.d.h.v. het profiel
 
 [Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
 
-
+Roger vond de grafiek ZEER duidelijk
+Door hoog contrast, grote vormen en grote letters was het zelfs te begrijpen zonder Audio
+Uit onderzoek van wouter alle tekst moet wit zijn
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->

@@ -14,13 +14,16 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "ibm-watson": "^5.4.0",
+    "pug": "^2.0.4",
     "rollup": "^2.3.4"
   },
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -cw"
+    "watch": "rollup -cw",
+    "dev": "nodemon server.js --ignore 'src/' --ignore 'static/'"
   },
   "devDependencies": {
+    "nodemon": "^2.0.3",
     "rollup-plugin-livereload": "^1.1.0",
     "rollup-plugin-serve": "^1.0.1"
   }
