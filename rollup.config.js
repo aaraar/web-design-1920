@@ -16,8 +16,6 @@ export default {
             main: true,
             browser: true
         } ),
-        commonjs (),
-        serve('docs'),
-        livereload()
+        commonjs ()
     ]
 }

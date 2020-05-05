@@ -20,7 +20,8 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -cw",
-    "dev": "nodemon server.js --ignore 'src/' --ignore 'static/'"
+    "dev": "nodemon server.js --ignore 'src/' --ignore 'static/'",
+    "start": "node server.jsi"
   },
   "devDependencies": {
     "nodemon": "^2.0.3",
