@@ -18,6 +18,26 @@ Requirements a.d.h.v. het profiel
 1. De interface moet duidelijk zichtbaar zijn voor Roger zodat hij nog wel het gedeeltelijke zicht dat hij nog heeft kan gebruiken
 1. Hij moet de volledige controle over de applicatie en wat de applicatie eventueel zegt of laat zien hebben (Hij moet bijvoorbeeld altijd onderdelen kunnen starten en weer kunnen stoppen of sluiten)
 
+## Inclusive Design
+Ik heb de de applicatie specifiek voor Roger gemaakt a.d.h.v. de inclusive design principes. Deze zijn als volgt gebruikt
+
+### Study situation
+- Roger vindt het onwijs vervelend om de screenreader te gebruiken door de manier dat deze voorleest en hoe snel het gaat, daarom heb ik een eigen 'custom screenreader' toegevoegd die de website rustig en duidelijk voorleest wanneer hij dat wilt
+- Roger vindt het heel verelend dat de screenreader te snel doorleest en niet stopt, dus ik heb twee toetsen toegevoegd waarmee roger de custom screenreader kan stoppen
+- Roger kan nog deels zicht gebruiken en wil dit graag doen, maar kan dit alleen met veel contrast. Daarom is de site in hoog contrast gemaakt, maar is er altijd een audio optie voor als het niet goed zichtbaar is
+
+### Ignore Conventions
+- Het afspelen van geluid bij elke handeling wordt vaak afgekeurd. Dit kan heel vervelend zijn, maar Roger geeft aan af en toe wel een hint te kunnen gebruiken. Daarom heb ik er voor gekozen om veel geluid cue te gebruiken als backup. Met een vinger op de escape knop kan roger deze telkens annuleren.
+- De grotere en dikke lettertypes, rode knoppen etc. geven veel visuele elementen dat afleidend kan zijn. Voor roger is dit van belang, want dan ziet hij dat er een object zit. Zonder dit contrast kijkt hij eroverheen.
+
+### Prioritise identity
+- Roger vondt het erg vervelend dat zijn naam nooit goed werd uitgesproken door screenreaders (franse uitspraak is correct). Daarom heb ik ervoor gezorgd dat zijn naam altijd door de franse stem wordt uitgesproken zodat de uitspraak wel naar zijn wens is.
+- Bij veel data moet vaak context geplaatst worden zodat alle bezoekers begrijpen wat er gebeurd, bij deze applicatie is de data juist gericht op de kennis van Roger en vindt hij de extra uitleg juist vervelend dus laat ik alle kennis bij Roger en is er niet onwijs veel context bij wat voor data je nou ziet.
+
+### Add nonsense
+- Roger is vrij bot tegen de screenreader, de custom screenreader biedt dan ook aan om haar 'mond te laten snoeren, met een druk op de knop'
+- De naam van Roger wordt nu overdreven Frans uitgesproken wat door Roger misschien wel erg opvalt na de opmerkingen dat zijn naam zo uitgesproken moet worden.
+
 ## Leerdoelen
 - _Leren hoe je (design) principles in een ontwerp kan toepassen._
 - _User needs begrijpen en gebruiken in je ontwerp._
