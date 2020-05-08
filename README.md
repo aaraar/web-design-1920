@@ -1,4 +1,5 @@
 # Web Design @cmda-minor-web 1920
+![Eindproduct](https://github.com/aaraar/web-design-1920/blob/master/documentation/screenshots/eindproduct.png)
 ### Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 Speciaal voor Roger Ravelli heb ik een ontwerp gemaakt om hem tegemoet te komen bij de problemen die hij ondervind bij het gebruik van zijn computer voor bepaalde doeleinden.
 Mijn focus hiervoor ligt op het begrijpbaar maken van grafieken voor Roger, aangezien roger een groot deel van zijn zicht niet meer kan gebruiken.
