@@ -1,3 +1,4 @@
+## Let op!: Veel informatie over het onderzoek staat in de [Wiki](https://github.com/aaraar/web-design-1920/wiki)
 # Web Design @cmda-minor-web 1920
 ![Eindproduct](https://github.com/aaraar/web-design-1920/blob/master/documentation/screenshots/eindproduct.png)
 ### Interactie ontwerpen: Rapid prototypen en testen met echte mensen
@@ -44,11 +45,6 @@ Ik heb de de applicatie specifiek voor Roger gemaakt a.d.h.v. de exclusive desig
 - _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
 
 [Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
-
-Roger vond de grafiek ZEER duidelijk
-Door hoog contrast, grote vormen en grote letters was het zelfs te begrijpen zonder Audio
-Uit onderzoek van wouter alle tekst moet wit zijn
-
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
