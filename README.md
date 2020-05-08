@@ -18,8 +18,8 @@ Requirements a.d.h.v. het profiel
 1. De interface moet duidelijk zichtbaar zijn voor Roger zodat hij nog wel het gedeeltelijke zicht dat hij nog heeft kan gebruiken
 1. Hij moet de volledige controle over de applicatie en wat de applicatie eventueel zegt of laat zien hebben (Hij moet bijvoorbeeld altijd onderdelen kunnen starten en weer kunnen stoppen of sluiten)
 
-## Inclusive Design
-Ik heb de de applicatie specifiek voor Roger gemaakt a.d.h.v. de inclusive design principes. Deze zijn als volgt gebruikt
+## Exclusive Design
+Ik heb de de applicatie specifiek voor Roger gemaakt a.d.h.v. de exclusive design principes. Deze zijn als volgt gebruikt
 
 ### Study situation
 - Roger vindt het onwijs vervelend om de screenreader te gebruiken door de manier dat deze voorleest en hoe snel het gaat, daarom heb ik een eigen 'custom screenreader' toegevoegd die de website rustig en duidelijk voorleest wanneer hij dat wilt
